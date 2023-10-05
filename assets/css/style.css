@@ -246,7 +246,16 @@ h6 {
   border-top-color: black;
   animation: animate-loading-notify 1s linear infinite;
 }
+#products h3 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: 20px;
+}
 
+#products p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
 @keyframes animate-loading-notify {
   0% {
     transform: rotate(0deg);
